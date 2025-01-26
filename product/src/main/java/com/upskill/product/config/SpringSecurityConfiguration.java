@@ -1,6 +1,6 @@
-//package com.upskill.category.security;
-//
-//
+//package com.upskill.product.config;
+////
+////
 //import static org.springframework.security.config.Customizer.withDefaults;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
@@ -14,18 +14,27 @@
 //	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 //		
 ////		1) All requests should be authenticated
-//		http.authorizeHttpRequests(
-//				auth -> auth.anyRequest().authenticated()
-//				);
-////		2) If a request is not authenticated, a web page is shown
-//		http.httpBasic(withDefaults());
-//		
-////		3) CSRF -> POST, PUT
+//		http.cors()
 //		http.csrf().disable();
-//
 //		
 //		return http.build();
 //	}
 //
+//	
+//	@Override
+//	protected void configure(HttpSecurity http) throws Exception {
+//	    http
+//	            .cors().and()
+//	            .authorizeRequests()
+//	            .antMatchers("/admin/**").authenticated()//.hasAnyRole("ADMIN","USER")
+//	            .and().formLogin().loginPage("/login").permitAll()
+//	            .and().logout();
+//	    http.csrf().disable();
+//	    http.headers().frameOptions().disable();
+//	}
+//
 //}
+
+
+
 

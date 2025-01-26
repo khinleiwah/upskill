@@ -2,9 +2,12 @@ package com.upskill.category.controller;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +15,7 @@ import com.upskill.category.model.Category;
 import com.upskill.category.repository.CategoryRepository;
 
 @RestController
-@RequestMapping("api")
+@CrossOrigin
 public class CategoryController {
 	@Autowired
 	private Environment environment;
@@ -20,9 +23,9 @@ public class CategoryController {
 	@Autowired
 	private CategoryRepository repo;
 	
-	@GetMapping("/category/get_category")
-	public List<Category> retrieveExchangeValue() {
-		Category category = new Category();
+	@GetMapping("/categories")
+	public List<Category> getCategories() {
+	
 		String port = environment.getProperty("local.server.port");
 		System.out.println("env port "+ port);
 		
@@ -30,4 +33,14 @@ public class CategoryController {
 		return repo.findAll();
 	}
 
+	
+	@GetMapping("/category/{id}")
+	public String getCategoryById(@PathVariable int id) {
+	
+		String port = environment.getProperty("local.server.port");
+		System.out.println("env port "+ port);
+		
+		
+		return repo.findById(id).get().getName();
+	}
 }

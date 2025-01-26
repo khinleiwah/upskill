@@ -11,7 +11,3 @@ import com.upskill.category.model.Category;
 public interface CategoryRepository extends JpaRepository<Category, Integer>{
 	
 }
-//public interface CurrencyExchangeRepository 
-//extends JpaRepository<CurrencyExchange, Long> {
-//CurrencyExchange findByFromAndTo(String from, String to);
-//}
