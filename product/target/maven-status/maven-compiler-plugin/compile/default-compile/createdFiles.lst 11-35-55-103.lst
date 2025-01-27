@@ -1,0 +1,9 @@
+com/upskill/product/model/Product.class
+com/upskill/product/controller/ProductController.class
+com/upskill/product/config/WebConfig$1.class
+com/upskill/product/ProductApplication.class
+com/upskill/product/model/ProductWrapper.class
+com/upskill/product/repository/ProductRepository.class
+com/upskill/product/config/WebConfig.class
+com/upskill/product/service/ProductService.class
+com/upskill/product/proxy/CategoryProxy.class

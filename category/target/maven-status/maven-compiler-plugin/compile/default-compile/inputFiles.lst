@@ -1,0 +1,7 @@
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/CategoryApplication.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/controller/CategoryController.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/model/Category.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/repository/CategoryRepository.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/security/JwtFilter.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/security/SecurityConfig.java
+/Users/win/Documents/FullStack/IBM/upskill/category/src/main/java/com/upskill/category/security/SpringSecurityConfiguration.java

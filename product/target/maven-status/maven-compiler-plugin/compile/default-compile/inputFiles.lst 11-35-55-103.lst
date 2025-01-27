@@ -1,0 +1,9 @@
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/ProductApplication.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/config/SpringSecurityConfiguration.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/config/WebConfig.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/controller/ProductController.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/model/Product.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/model/ProductWrapper.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/proxy/CategoryProxy.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/repository/ProductRepository.java
+/Users/win/Documents/FullStack/IBM/upskill/product/src/main/java/com/upskill/product/service/ProductService.java

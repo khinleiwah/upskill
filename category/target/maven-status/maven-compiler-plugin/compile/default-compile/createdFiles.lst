@@ -1,0 +1,4 @@
+com/upskill/category/repository/CategoryRepository.class
+com/upskill/category/model/Category.class
+com/upskill/category/CategoryApplication.class
+com/upskill/category/controller/CategoryController.class

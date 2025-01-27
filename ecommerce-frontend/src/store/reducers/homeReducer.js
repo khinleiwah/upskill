@@ -65,7 +65,7 @@ export const add_product = createAsyncThunk(
             // const { data } = await api.post(`/product/add`, info)
             console.log("axios "+info)
             const response = await axios.post(
-                'http://localhost:8200/product/add',
+                'http://54.146.210.39:8200/product/add',
                 info,
                 {
                   headers: {
